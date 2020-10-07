@@ -1,4 +1,5 @@
 abbr -a -- - 'cd -'
 
 set BROWSER google-chrome
-gover 1.15.1 2>/dev/null
+status --is-interactive; and gover 1.15.2 2>/dev/null
+set PATH $PATH $HOME/go/bin
